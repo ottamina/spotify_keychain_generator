@@ -1,79 +1,77 @@
 # 🎵 Spotify Keychain 3D Model Generator
 
-Spotify şarkı, albüm, sanatçı veya playlist linklerinden 3D baskıya hazır anahtarlık modeli oluşturan masaüstü uygulaması.
+A desktop application that creates 3D printable keychain models from Spotify song, album, artist, or playlist links.
 
-[Özellikler](#özellikler) • [Demo](#demo) • [Kullanım](#kullanım) • [Krediler](#krediler) • [Lisans](#lisans)
-
-![](https://github.com/ricdigi/spotify_keychain_3D_model/blob/master/Images/render_b.png?raw=true)
+[Features](#features) • [Demo](#demo) • [Usage](#usage) • [Credits](#credits) • [License](#license)
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
-- 🖥️ **Kullanıcı dostu arayüz** - Komut satırı gerektirmez
-- 📁 **Birden fazla model desteği** - Farklı anahtarlık tasarımları arasından seçim
-- 🔗 **Otomatik Spotify kod oluşturma** - Sadece link yapıştır
-- 📦 **STL çıktısı** - 3D baskıya hazır format
+- 🖥️ **User-friendly interface** - No command line needed
+- 📁 **Multiple model support** - Choose from different keychain designs
+- 🔗 **Automatic Spotify code generation** - Just paste a link
+- 📦 **STL export** - Ready for 3D printing
 
 ---
 
 ## 🎬 Demo
 
-![Uygulama Ekran Görüntüsü](screenshot.png)
+![Application Screenshot](screenshot.png)
 
-1. Uygulamayı başlat
-2. Spotify linkini yapıştır
-3. Base model seç
-4. "Generate" butonuna tıkla
-5. STL dosyasını al ve 3D baskı yap!
+1. Launch the application
+2. Paste a Spotify link
+3. Select a base model
+4. Click "Generate"
+5. Get your STL file and 3D print it!
 
 ---
 
-## 📖 Kullanım
+## 📖 Usage
 
-### Gereksinimler
+### Requirements
 - Python 3.8+
 - cadquery
 - requests  
 - pillow
 
-### Kurulum
+### Installation
 
 ```bash
 pip install cadquery requests pillow
 ```
 
-### Çalıştırma
+### Running
 
 ```bash
 python gui.py
 ```
 
-### Base Modeller
+### Base Models
 
-`.step` dosyalarınızı `base_models` klasörüne yerleştirin. Uygulama otomatik olarak algılayıp listeler.
-
----
-
-## 🙏 Krediler
-
-Bu proje [Riccardo Di Girolamo](https://github.com/rickycraft) tarafından geliştirilen [spotify_keychain_3D_model](https://github.com/rickycraft/spotify_keychain_3D_model) projesinin fork'udur.
-
-**Orijinal çalışma:**
-- Spotify kod parse etme mantığı
-- 3D model oluşturma algoritması
-- Base anahtarlık STEP modelleri
-
-**Bu fork'ta eklenenler:**
-- Masaüstü GUI uygulaması (Tkinter)
-- Çoklu base model seçimi
-- Windows executable desteği
+Place your `.step` files in the `base_models` folder next to the application. The app will automatically detect and list them.
 
 ---
 
-## 📄 Lisans
+## 🙏 Credits
 
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+This project is a fork of [spotify_keychain_3D_model](https://github.com/rickycraft/spotify_keychain_3D_model) by [Riccardo Di Girolamo](https://github.com/rickycraft).
+
+**Original work:**
+- Spotify code parsing logic
+- 3D model generation algorithm
+- Base keychain STEP models
+
+**Added in this fork:**
+- Desktop GUI application (Tkinter)
+- Multiple base model selection
+- Windows executable support
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Original Copyright (c) 2024 Riccardo Di Girolamo
 
@@ -81,6 +79,6 @@ Original Copyright (c) 2024 Riccardo Di Girolamo
 
 <p align="center">
   <a href="https://github.com/ottamina">Osman Teksoy</a><br>
-  ⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!<br>
+  ⭐ Star this repo if you like it!<br>
   Made with ❤️ in Turkey
 </p>
