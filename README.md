@@ -55,7 +55,7 @@ Place your `.step` files in the `base_models` folder next to the application. Th
 
 ## 🙏 Credits
 
-This project is a fork of [spotify_keychain_3D_model](https://github.com/rickycraft/spotify_keychain_3D_model) by [Riccardo Di Girolamo](https://github.com/rickycraft).
+This project is a fork of [spotify_keychain_3D_model](https://github.com/ricdigi/spotify_keychain_3D_model) by [Riccardo Di Girolamo](https://github.com/ricdigi).
 
 **Original work:**
 - Spotify code parsing logic
